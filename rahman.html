@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahman - IT Portfolio</title>
+    <link rel="stylesheet" href="master.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Rahman</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h1>Hello, I'm Rahman</h1>
+                <p>
+                    I am an enthusiastic IT graduate passionate about technology, problem-solving, and continuous learning. My expertise spans programming, networking, and IT support. I am eager to contribute my skills and grow in a dynamic professional environment.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-list">
+                    <div class="skill">
+                        <h3>Programming</h3>
+                        <ul>
+                            <li>JavaScript, Python, Java</li>
+                            <li>HTML5 &amp; CSS3</li>
+                            <li>React, Node.js (basics)</li>
+                        </ul>
+                    </div>
+                    <div class="skill">
+                        <h3>Networking</h3>
+                        <ul>
+                            <li>Network Configuration</li>
+                            <li>Troubleshooting</li>
+                            <li>TCP/IP, DNS, DHCP</li>
+                        </ul>
+                    </div>
+                    <div class="skill">
+                        <h3>IT Support</h3>
+                        <ul>
+                            <li>Hardware &amp; Software Support</li>
+                            <li>System Maintenance</li>
+                            <li>Customer Service</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-list">
+                    <div class="project">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>A responsive website to showcase my skills and projects. Built with HTML, CSS, and JavaScript.</p>
+                    </div>
+                    <div class="project">
+                        <h3>Network Monitoring Tool</h3>
+                        <p>Developed a basic tool to monitor network devices and visualize uptime statistics using Python.</p>
+                    </div>
+                    <div class="project">
+                        <h3>IT Support Ticket System</h3>
+                        <p>Created a simple ticketing system for IT support requests, improving response time and tracking.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CV Section -->
+        <section id="cv" class="section cv-section">
+            <div class="container">
+                <h2>Download My CV</h2>
+                <a href="cv.pdf" class="btn" download>Download CV</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                    <div id="formMessage"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Rahman. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
